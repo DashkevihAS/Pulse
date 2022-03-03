@@ -1,0 +1,23 @@
+.feed-form {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    input {
+        height: 54px;
+        margin-bottom: 12px;
+        padding: 0 20px;
+        font-weight: 300;
+        font-size: 14px;
+        color: #4B4B4B; 
+    }
+    .error {
+        border: 1px solid $main-color;
+        margin-bottom: 0;
+    }
+    label.error {
+        color: #fff;
+        font-size: 12px;
+        margin-bottom: 15px;
+        border: none;
+    }
+}
